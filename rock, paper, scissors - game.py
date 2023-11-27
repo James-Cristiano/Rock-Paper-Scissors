@@ -42,13 +42,13 @@ while True:
         PlayerChoice = 'SCISSORS'        
 
 #Countdown timer - giving a little suspense
-    #time.sleep(0.3)
+    time.sleep(0.3)
     print('...1')
-    #time.sleep(0.3)
+    time.sleep(0.3)
     print('...2')
-    #time.sleep(0.3)
+    time.sleep(0.3)
     print('...3')
-    #time.sleep(0.5)
+    time.sleep(0.5)
 
 #Get PC to make a choice
     ComputerChoice = random.randint(1, 3)
@@ -130,13 +130,13 @@ while True:
                 PlayerChoice = 'SCISSORS'        
 
 #Countdown timer - giving a little suspense
-            #time.sleep(0.3)
+            time.sleep(0.3)
             print('...1')
-            #time.sleep(0.3)
+            time.sleep(0.3)
             print('...2')
-            #time.sleep(0.3)
+            time.sleep(0.3)
             print('...3')
-            #time.sleep(0.5)
+            time.sleep(0.5)
 
 #Get PC to make a choice
             ComputerChoice = random.randint(1, 3)
@@ -176,15 +176,3 @@ while True:
                 print('Better luck next time! You lose.')
                 Losses = Losses + 1
                 Points = 0
-
-
-#fixing double down
-    #while Points >= 1: 
-        #print('Before we reveal the answer, would you like to go all or nothing? Risking all of your points can score you x2 what you have now!')
-        #print('But if you lose... You will have to start all over again.\n\nCare to Try?\n(Y)es or (N)o?')
-        #DoubleDown = input('>> ').upper()
-        #if DoubleDown == 'N':
-            #break
-        #if DoubleDown == 'Y':
-            #print('Let\'s get ready to rumbleeee!')
-        #break
